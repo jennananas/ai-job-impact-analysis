@@ -92,12 +92,20 @@ Le dataset contient des informations sur :
 L’intelligence artificielle agit principalement comme un levier de transformation du travail.  
 Elle améliore la performance globale, mais ses effets restent variables selon les métiers, les secteurs et les niveaux d’adoption.
 
+## Dashboard Overview
+![Overview](images/dashboard.png)
+
 ## Structure du projet
 ```text
 ├── data/
-│   └── data.csv
+│     raw/
+│       └──ai_job_impact.csv
+│     cleaned/
+│       └── ai_job_impact_cleaned.csv
 ├── notebook/
 │   └── ai_job_impact_analysis.ipynb
+├── images/
+│   └── dashboard.png
 └── README.md
 ```
 ## Auteur
